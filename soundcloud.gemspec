@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency('httparty', '>= 0.16.4')
   spec.add_dependency('hashie')
 
-  spec.add_development_dependency('bundler', '~> 1.0')
+  spec.add_development_dependency('bundler', '~> 2.1')
 
   spec.files        = Dir.glob("lib/**/*") + %w(LICENSE.md README.md)
   spec.require_path = 'lib'

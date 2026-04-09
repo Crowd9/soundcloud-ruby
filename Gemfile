@@ -1,6 +1,9 @@
 source 'http://rubygems.org'
 
 gem 'rake', '>= 10.1'
+gem 'ostruct'
+gem 'logger'
+gem 'base64'
 
 group :test do
   gem 'rspec', '>= 3'
